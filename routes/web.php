@@ -9,9 +9,7 @@ Route::get('/', function () {
 
 Route::resource('posts', PostController::class);
 
-Route::get('/greeting', function(){
-    return "Hello world";
-});
+
 
 
 // Route::get('/posts', [PostController::class, 'index']);           // Show all posts
